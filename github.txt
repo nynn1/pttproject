@@ -1,0 +1,85 @@
+git --version
+
+git config --global user.name "Win Htet Maung Maung"
+
+git config --global user.name
+
+git config --global user.email ""
+
+git config --global user.email
+
+----------------------------------------
+(Creating SSH and connecting it to github)
+=> Connect by SSH (secure shell protocol)
+
+ssh-keygen -t rsa
+
+After creating ssh keygen, copy the ssh key in the shown pathway.
+Exampe:
+C:\Users\User/.ssh/id_rsa
+
+copy the ssh key from id_rsa publisher file and paste this code in github.
+
+Go to github account setting,
+and then go to SSH and GPG keys setting and add SSH key
+
+=> ssh key ကိုအသစ်ထုတ်ချင်ရင် ssh key folder ကို ဖျက်ပြီးမှ ထပ်ထုတ်ရမယ်။
+
+=> Check Connection
+
+ssh -T git@github.com
+
+y
+
+y
+
+---------------------------------------------
+
+=> installing git in a project
+
+open gitbash here in a project folder
+
+and type 
+
+git init
+
+----------------------------------------------
+(project ကို respository ထဲ ထည့်တဲ့အခါမှာ ရွက်ဆောင်ခြင်း)
+In project terminal,
+
+=> Initialize to project folder
+git init
+
+=> Connect project folder to respository 
+git remote add origin git@github.com:nynn1/pttproject.git
+
+=>Check repository url
+git remote -v
+
+----------------------------------------------
+
+git add *
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------
+
+(github acc ဖွင့်ခဲ့တဲ့ email  ဖြစ်ရမယ်။)
+ကိုယ်ပေးထားတာကို ပြန်စစ်တဲ့အခါမှာ global ကို ဖြုတ်ပြီး စစ်လို့ရတယ်။
+
+
+gitconfiguration က pc တစ်လုံးမှာ တစ်ခေါက်ပဲ လုပ်ရမှာ။
+
+ssh (secure shell protocol)
+ssh key ကို ထပ်ခါ ထပ်ခါ နှိပ်ရင် key change သွားမယ်။
+key change  ချင်ရင် ၅မိနစ် အနည်းဆုံးစောင့်ပြီးမှ ချိန်း။
+
