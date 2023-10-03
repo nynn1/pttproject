@@ -57,12 +57,25 @@ git remote add origin git@github.com:nynn1/pttproject.git
 git remote -v
 
 ----------------------------------------------
+In gitbush cmd of a project folder
 
-git add *
+git status
+git add * (or) git add -A
+
+git status
+
+git commit -m "myfirstproject"
+
+git push -u origin master
+
+(တချို့ pc တွေမှာတော့ main လို့ပေါ်တယ်။ main လို့ပဲ ရေးရမယ်။)
 
 
 
 
+----------------------------------------------
+
+file ကို modify လုပ်လိုက်ရင် git ထဲ ပြန်ထည့်ရမယ်။
 
 
 
